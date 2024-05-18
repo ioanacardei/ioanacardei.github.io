@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Graduated Masters in Data Science at [Florida Atlantic University](https://www.fau.edu)
