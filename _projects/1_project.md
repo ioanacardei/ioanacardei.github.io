@@ -1,25 +1,20 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Jellyfish Classification
+description: Convolutional Neural Networks for Jellyfish Classification. Used deep learning tools including Keras, SkLearn, and TensorFlow.
+img: assets/img/jelly.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Deep learning for classification of 6 types of jellyfish (Barrel, Blue, Compass, Lions Mane, Mauve Stinger and Moon) using sklearn, keras, and tensorflow in addition to numpy and matplotlib for plotting
+6 different models were implemented- simple_CNN, reg_CNN and batch_CNN with 3x3 filters and 5x5 filters. 
+Simple_CNN - Has three convolutional layers, each followed by a max pooling layer, a flatten layer, a fully connected dense layer, and an output layer with softmax activation for multi-class classification.
+Reg_CNN- includes dropout layers to regularize the model and prevent overfitting, potentially making it more robust but possibly requiring more training time and data to achieve optimal performance.
+Batch_CNN- Uses batch normalization to stabilize and potentially speed up training by normalizing activations. Has a batch normalization after each convolutional layer
+First, I created three data generators for the training, validation, and test dataset using the flow_from_directory method. Each instance reads images from the respective directories, resizes them to 150x150 pixels, rescales the pixel values, and yields batches of images and their corresponding labels (labels are one-hot encoded for categorical classification tasks).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

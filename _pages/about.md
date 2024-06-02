@@ -13,12 +13,11 @@ profile:
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-**this page is under construction** 
 Hello my name is Ioana Cardei and I am a data scientist and physical therapist. My unique journey has brought me from the world of Physical Therapy to the forefront of Data Science, Artificial Intelligence, and Machine Learning. My transition into data science is driven by a passion for leveraging technology to solve complex problems and a desire to merge my healthcare expertise with cutting-edge data science and analytics. I recieved my Masters in Science from [Florida Atlantic University](https://www.fau.edu) with a minor in Artificial Intelligence and certificate in Big Data. 
 
 After earning my Doctor of Physical Therapy degree in 2020 from [University of Florida](https://www.uf.edu) and practicing as a healthcare provider, I developed a deep appreciation for the impact of data on patient outcomes and healthcare efficiency. This sparked my interest in data science, leading me to pursue a Master of Science in Data Science and Analytics at [Florida Atlantic University](https://www.fau.edu) from the depeartment of Engineering and Computer Science. Here, I focused on Data Science and Engineering, with a minor in Artificial Intelligence, and achieved a 4.0 GPA while independently managing my patient caseload and working as a physical therapist. 
