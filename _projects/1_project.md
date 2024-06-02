@@ -16,7 +16,6 @@ Batch_CNN- Uses batch normalization to stabilize and potentially speed up traini
 First, I created three data generators for the training, validation, and test dataset using the flow_from_directory method. Each instance reads images from the respective directories, resizes them to 150x150 pixels, rescales the pixel values, and yields batches of images and their corresponding labels (labels are one-hot encoded for categorical classification tasks).
 
 
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
