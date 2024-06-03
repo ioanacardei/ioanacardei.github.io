@@ -64,11 +64,15 @@ The the types of CNN models
     </div>
 </div>
 
+<br>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/jelly_5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -76,7 +80,105 @@ The the types of CNN models
     </div>
 </div>
 
+<br>
+Training on the 6 CNN models using 3x3 and 5x5 filters 
+<br>
+
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_7.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+Plotting results (Accuracy and Loss)
+<br>
+<br>
+Code
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+Plots
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_9.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_10.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+Testing/Results
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_12.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+Highest test accuracy
+<br>
+Test Accuracy: 0.6499999761581421 for 5x5 no dropout CNN
+<br>
+F1 Score: is 0.17067307692307693 for 5x5 no dropout CNN
+<br>
+<br>
+<br>
+
+Visualizing feature detection at different convolutional layers using VGG16 
+<br>
+<br>
+code
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+Visualization of a 3x3  filter CNN no drop out, blue_jellyfish photo
+<br>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/jelly_14.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<br>
+ This image depicts which parts of the image are being activated by different filters in the convolutional layers, providing insights into what the model is learning!!
+
+
+
+
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -89,6 +191,6 @@ The the types of CNN models
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
 To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Here's the code for the last row of images above: -->
 
 
