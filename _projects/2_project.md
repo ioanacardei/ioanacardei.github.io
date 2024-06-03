@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  S&P 500 predictions in R
-description: Linear regresstion for stock index returns from 1990-2010 using tidyverse and glmnet packages in R
+description: Linear regresstion for stock index returns from 1990-2010 using R
 img: assets/img/sp_500.jpg
 importance: 2
 category: work
@@ -11,10 +11,10 @@ giscus_comments: false
 S&P 500 stock index from 1990 – 2010 
 <br>
 <br>
-My project is using R to analyze Weekly data frame in ISLR package which contains 9 features for 1089 weeks of S&P 500 stock index returns from 1990-2010. Analysis was performed using tidyverse and glmnet packages
+My project is using R to analyze Weekly data frame in ISLR package. This data frame contains 9 features for 1089 weeks of stock index returns from 1990 to 2010. Analysis was performed using tidyverse and glmnet packages.
 <br>
 <br>
-First, I fit a ridge-penalized linear regression model and a lasso-penalized linear regression model to predict the percentage return today from the percentage return for the five previous weeks
+First, I fit a ridge-penalized linear regression model and a lasso-penalized linear regression model to predict the percentage return today from the percentage return for the five previous weeks.
 <br>
 I considered 100 tuning parameter (λ) values evenly spaced between 0.001 and 1000 on a base-10 logarithmic scale and plotted the coefficients as a function of log(λ)
 <br>
@@ -52,7 +52,7 @@ Lasso-penalized model
 </div>
 
 <br>
-Next using a seed of 1, I performed 10-fold cross-validation for a ridge-penalized and for a lasso-penalized linear regression model to predict the percentage return today from the percentage return for the five previous weeks. For each model, I use the fit with the λ value that has the smallest cross-validation error rate to predict classes for the training data, then printed a confusion matrix and an estimate of classification training accuracy to the console.
+Next I performed 10-fold cross-validation for a ridge-penalized and for a lasso-penalized linear regression model to predict the percentage return today from the percentage return for the five previous weeks. For each model, I use the fit with the λ value that has the smallest cross-validation error rate in order to predict classes for the training data, then printed a confusion matrix and an estimate of classification training accuracy to the console.
 <br>
 <br>
 Code/Results
